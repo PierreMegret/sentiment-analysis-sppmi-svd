@@ -4,7 +4,6 @@ import os
 import logging
 import numpy as np
 from math import log
-from pprint import pformat
 from collections import Counter
 from scipy.sparse import csc_matrix
 from scipy.sparse.linalg import svds
