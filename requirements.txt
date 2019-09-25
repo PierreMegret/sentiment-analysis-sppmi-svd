@@ -1,0 +1,6 @@
+python==3.7
+spacy==2.0.12
+nltk==3.4.4
+tqdm=4.32.1
+scikit-learn==0.21.2
+gensim==0.21.2
