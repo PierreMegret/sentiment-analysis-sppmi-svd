@@ -21,7 +21,7 @@ A brief pre-processing of the tweets, removing hyperlinks and hashtags, and keep
 Using Gensim's Word2Vec implementation, and my own for SPPMI - SVD, built two differents vector representations of the corpus' words. With these vector representations, transformed each tweet into a vector using [spaCy](https://spacy.io/).
 
 ### Part 3. Training of a classifier for each resulting word-embeddings
-Trained two [Stochastic Gradient Descent classifiers](Stochastic Gradient Descent Classifier), one for each word-embeddings.
+Trained two [Stochastic Gradient Descent classifiers](https://scikit-learn.org/stable/modules/sgd.html), one for each word-embeddings.
 
 ### Part 4. Comparison of the two resulting sentiment classification
 Compared different metrics of the sentiment classification tasks between the two classifiers.
